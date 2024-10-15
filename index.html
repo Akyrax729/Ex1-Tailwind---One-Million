@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="dist/style.css">
+    <title>Tailwind - Ex1</title>
+</head>
+<body>
+    <header>
+
+        <!-- NAVBAR -->
+
+        <nav  class="flex justify-between items-center bg-black">
+            <img class="p-3 pl-60" src="assets/img/top-logo.png" alt="Logo One million">
+            <div>
+                <div></div>
+                <ul class="flex pr-60">
+                    <li><a class="text-white pr-16 transition-all ease-linear hover:text-red-600" href="">Who we are</a></li>
+                    <li><a class="text-white transition-all ease-linear hover:text-red-600" href="">Get involved</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- BANNER -->
+
+        <section id="banner" class="text-white text-center flex flex-col justify-center items-center px-32 xl:px-80">
+            <h2 class="text-8xl xl:py-6">Our goal is to inspire Tallahasee to write 1,000,000 lines of code_</h2>
+            <p class="py-6 text-lg">All over the country people are taking the <span class="uppercase font-bold">hour of code</span> challenge issued by <span class="font-bold">CODE.org</span>. Millions of lines of code are being written. In the capital of Florida, Talahassee, the community is taking the challenge and our goal is to write 1,000,000 lines of code_</p>
+            <a href="" class="px-8 py-4 rounded-lg bg-red-600 transition-all ease-linear hover:text-black hover:scale-110">Learn more <i class="fa-solid fa-angles-right"></i></a>
+            <img class="py-6" src="assets/img/code.png" alt="Logo Code">
+        </section>
+    </header>
+
+    <!-- MAIN -->
+
+    <main>
+
+        <!-- WHO WE ARE -->
+
+        <section class="flex flex-col justify-center items-center text-center py-16 px-32">
+            <img src="assets/img/academy-brand-med.png" alt=""></img>
+            <h2 class="text-red-600 uppercase text-bold text-5xl">Who we are</h2>
+            <div class="bg-red-600 h-0.5 w-48 m-8"></div>
+            <p class="px-32">We are <span class="text-red-600">MASSIVE Academy</span>. We aim to improve education through both methode - effective project-based learning - and material - by teaching skills that are applicable to improving your life today.</p>
+        </section>
+
+        <!-- GET INVOLVED -->
+
+        <section class="flex flex-col justify-center items-center bg-gray-100 py-16">
+            <h2 class="text-red-600 uppercase text-bold text-5xl">Get involved</h2>
+            <div class="bg-red-600 h-0.5 w-48 m-8"></div>
+            <div class="flex text-center">
+                <div class="flex flex-col justify-center items-center px-4">
+                    <i class="fa-solid fa-user text-5xl text-white rounded-full bg-black p-6"></i>
+                    <h3 class="text-red-600 uppercase text-bold text-4xl">Students</h3>
+                    <p class="p-4 px-8">Want to learn how to code ? Want to help us to get to 1,000,000 line ? Click the button below and we'll let you know how to get involved.</p>
+                    <a class="text-red-600 bg-white border border-solid border-slate-400 rounded-lg px-2 py-1 hover:text-black hover:scale-110" href="">Start Learning <i class="fa-solid fa-angles-right"></i></a>
+                </div>
+                <div class="flex flex-col justify-center items-center">
+                    <i class="fa-solid fa-pencil text-5xl text-white rounded-full bg-black p-6"></i>
+                    <h3 class="text-red-600 uppercase text-bold text-4xl">Educators</h3>
+                    <p class="p-4 px-8">Want to bring this initiative to your school or institution ? Awesome ! Click the button below and we'll make it happen.</p>
+                    <a class="text-red-600 bg-white border border-solid border-slate-400 rounded-lg px-2 py-1 hover:text-black hover:scale-110" href="">Join the initiative <i class="fa-solid fa-angles-right"></i></a>
+                </div>
+                <div class="flex flex-col justify-center items-center">
+                    <i class="fa-regular fa-money-bill-1 text-5xl text-white rounded-full bg-black p-6"></i>
+                    <h3 class="text-red-600 uppercase text-bold text-4xl">Sponsors</h3>
+                    <p class="p-4 px-8">We love all the support we get to help host more events, and empower more lives with the knowledge of coding. Click to get invilved.</p>
+                    <a class="text-red-600 bg-white border border-solid border-slate-300 rounded-lg px-2 py-1 hover:text-black hover:scale-110" href="">Give support <i class="fa-solid fa-angles-right"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer class="bg-red-600 h-64 flex flex-col justify-end items-start">
+        <img class="m-10 ml-64" src="assets/img/one-million-bottom-brand.png" alt="Brand One million">
+    </footer>
+</body>
+</html>
