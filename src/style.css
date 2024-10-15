@@ -2,11 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-    @font-face {
-        font-family: "arvo";
-        src: url(../assets/fonts/Arvo-Regular.ttf);
-    }
+@font-face {
+    font-family: "arvo";
+    src: url(../assets/fonts/Arvo-Regular.ttf);
 }
 
 
